@@ -185,7 +185,7 @@ function theJaggedCracks () {
 }
 
 function chooseAgain () {
-    if (insanity < 5) {
+    if (insanity < 4) {
         chooseAgainBtn.style.display = "none";
         document.querySelector('.firstPage').style.display = "block";
         extendedResults.innerHTML = '';
