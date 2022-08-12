@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' type='text/css' href='./main.css'>
+    <script src="./app.js" defer></script>
+</head>
+<body>
+    <div class="startScreen">
+        <h1>The Journey</h1>
+        <button class="startBtn">Start</button>
+    </div>
+    <div class="entireGame">
+    <div class="message">
+        <h1>Help the legendary stoner Mytama find God!</h1>
+        <p>Prepare Mytama for the void...</p>
+    </div>
+    <div class="stonerCharacter">
+        <img src="https://cdn.pixabay.com/photo/2020/08/07/16/21/drawing-5471064__340.png"/>
+        <p>Mytama the stoner</p>
+        <p class="enlightenment">Enlightenment: <span class="enlightenmentResult">0</span></p>
+    </div>
+    <div class="stonerStats">
+        <ul style="list-style-type:none">
+            <li class="li1">High: <span class="high">0</span> </li>
+            <li class="li1">Hunger: <span class="hunger">0</span> </li>
+            <li class="li1">Backpain: <span class="backpain">0</span> </li>
+            <li class="li1">Mood: <span class="mood">0</span> </li>
+            <li class="li1">Tiredness: <span class="tiredness">0</span> </li>
+        </ul>
+    </div>
+    <div class="interactions">
+        <ul class="buttons" style="list-style-type:none">
+            <li class="li2"><button class="smokeUp">smoke up</button></li>
+            <li class="li2"><button class="eatABurger">eat a burger</button></li>
+            <li class="li2"><button class="playGames">play games</button></li>
+            <li class="li2"><button class="gamerStretches">gamer stretches</button></li>
+            <li class="li2"><button class="nap">nap</button></li>
+            <li class="li2"><button class="enterTheVoid">enter the void</button></li>
+        </ul>
+    </div>
+    <p class="god"></p>
+    </div>
+    <div class="endText">
+        <p>Mytama took many journeys, got turned around in the void's many mazes. With enough elevation, however.... Mytama found God after all.... within himself the whole time...</p>
+        <button class="startAgain">The Journey Continues</button>
+    </div>
+    <div class="extendedCut">
+        <div class="introScreen">
+            <h1 class="finish">The Journey continues! A choice of three!</h1>
+            <div class="firstPage">
+                <h2>You narrowly escaped them Mytama... You have pursuers... There is only one way...</h2>
+                <h3>They taste so quick! Maybe they smell my stench!</h3>
+                <ul style="list-style-type:none" class="theFirstRoutes">
+                    <li><button class="theGrassyGlide">The Grassy Glide</button></li>
+                    <li><button class="theSmokeyStream">The Smokey Stream</button></li>
+                    <li><button class="theJaggedCracks">The Jagged Cracks</button></li>
+                </ul>
+            </div>
+            <div class="secondPage">
+                <h2>You have the audacity, Mytama... But have you the strength of the knees?</h2>
+                <h3>My mind might be slipping, but my vision is getting green. I must face my enemy head on!</h3>
+                <ul style="list-style-type:none" class="theSecondRoutes">
+                    <li><button class="theSlipperySlope">The Slippery Slope</button></li>
+                    <li><button class="theAdHominem">The Ad Hominem</button></li>
+                    <li><button class="theTroll">The Troll</button></li>
+                </ul>
+            </div>
+            <h3 class="extendedResults"></h3>
+            <button id="chooseAgain">Wait let me choose again!</button>
+            <button class="whatButton">What?</button>
+        </div>
+    </div>
+</body>
+</html>
